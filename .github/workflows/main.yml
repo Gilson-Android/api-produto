@@ -37,6 +37,6 @@ jobs:
           file: ./src/Dockerfile
           # Push is a shorthand for --output=type=registry
           push: true
-          tags: |
+          tags: 
             gilsonlig100/api-bootcamp-produto:latest
             gilsonlig100/api-bootcamp-produto:${{gitrub.run_number}}
