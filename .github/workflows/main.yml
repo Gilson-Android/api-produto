@@ -39,4 +39,4 @@ jobs:
           push: true
           tags: 
             gilsonlig100/api-bootcamp-produto:latest
-            gilsonlig100/api-bootcamp-produto:${{gitrub.run_number}}
+            gilsonlig100/api-bootcamp-produto:${{github.run_number}}
