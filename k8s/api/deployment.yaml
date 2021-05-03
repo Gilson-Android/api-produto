@@ -1,6 +1,10 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+  annotations:
+    prometheus.io/scrap: "true"
+    prometheus.io/path: "/metrics"
+    prometheus.io/port: "8080"
   name: api
 spec:
   replicas: 2
